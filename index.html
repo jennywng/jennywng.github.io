@@ -13,47 +13,130 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="parallax.css">
+        <link rel="stylesheet" href="css/timeline.css">
         
         <title>Jenny Wang</title>
     </head>
 
 
     <body>
-        <header class="parallax tt-fullHeight">
-            <h1>Jenny Wang</h1>
+        <!------------------------------------------------ Home section ------------------------------------------->
+        <header id="home" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2" class="parallax tt-fullHeight">
+            <!-- <h1>Jenny Wang</h1> -->
+
+            <div class="image-container">
+                <div class="text">JENNY WANG </div>
+            </div>
         </header>
 
-
-        <nav class="navbar navbar-custom" role="navigation">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  </div>
-          
-                  <div class="collapse navbar-collapse" id="custom-collapse">
-                    <ul class="nav navbar-nav navbar-center">
-                      <li><a href="#home">Home</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#resume">Resume</a></li>
-                      <li><a href="#skills">Skills</a></li>
-                      <li><a href="#publication">Publications</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                    </ul>
-                  </div>
-                </div><!-- .container -->
+        <!------------------------------------------------ Navbar -------------------------------------------------->
+        <nav class="navbar sticky-top navbar-expand-lg" id="mainNav">
+            <a class="navbar-brand" href="#home">
+                Jenny Wang
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class= "nav nav-pills" id="mainNavLinks">
+              <li class="nav-item"><a class="nav-link" href='#home'>Home</a>
+              <li class="nav-item"><a class="nav-link" href='#about'>About</a>
+              <li class="nav-item"><a class="nav-link" href='#resume'>Resume</a>
+              <li class="nav-item"><a class="nav-link" href='#skills'>Skills</a>
+              <li class="nav-item"><a class="nav-link" href='#publication'>Publications</a> 
+              <li class="nav-item"><a class="nav-link" href='#contact'>Contact</a>  		   
+            </ul>
+          </div>
         </nav>
-        
 
-        <!-- About section -->
 
-        <footer class="parallax">
 
-        </footer>
+        <!------------------------------------------------ About section ------------------------------------------->
+        <section id="about" class="about-section">
+          <h2 class="section-title wow fadeInUp">About Me</h2>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-md-push-8">
+                <div class="myprofile">
+                  <div class="myphoto">
+                    <img src="images/rsz_peach.jpg" alt="my photo" width="340" height="360">
+                  </div>
+                  <ul>
+                      <li><strong>Name:</strong> Jenny Wang</li>
+                      <li><strong>Phone:</strong> (703)755-5617</li>
+                      <li><strong>Email:</strong> jenny.wang9812@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="social-icons">
+                <div class="row">
+                  <div class="col-1">
+                    <a class="github" href="https://github.com/jennywng" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </div>
+                  <div class="col-1">
+                    <a class="linkedin" href="https://www.linkedin.com/in/jenny-wang9812/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </section>
+
+        <!------------------------------------------- Resume section ------------------------------------------->
+        <section id="resume" class="about-section">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h2>2017</h2>
+                    <p>Lorem ipsum..</p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>2016</h2>
+                    <p>Lorem ipsum..</p>
+                  </div>
+                </div>
+            </div>
+
+  
+        </section>
+
+        <!------------------------------------------ Skills section ----------------------------------------------->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title wow fadeInUp">Skills</h2>
+  
+
+  
+        </section>
+
+
+        <!------------------------------------------- Publications section -------------------------------------------->
+        <section id="publication" class="publication-section">
+            <h2 class="section-title wow fadeInUp">Publications</h2>
+  
+
+  
+        </section>
+
+        <!-------------------------------------------- Contact section ------------------------------------------------->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title wow fadeInUp">Contact Me</h2>
+  
+
+  
+        </section>
+
+        <!-- <footer class="parallax">
+
+        </footer> -->
 
         
         </div>
