@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+}
+  
+.parallax { 
+    background-image: url("images/clouds.jpg");
+  
+    height: 100%; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* turn off parallax for mobile */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
