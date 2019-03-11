@@ -1,6 +1,3 @@
-// progressbar.js@1.0.0 version is used
-// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
-
 var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     strokeWidth: 4,
     easing: 'easeInOut',
@@ -11,10 +8,9 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     svgStyle: {width: '100%', height: '100%'},
     text: 'C++'
   });
+bar.animate(0.95); 
   
-  bar.animate(0.95); 
-  
-  var bar1 = new ProgressBar.Line(document.getElementById('skill-java'), {
+var bar1 = new ProgressBar.Line(document.getElementById('skill-java'), {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
@@ -22,11 +18,10 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'}
-  });
+});
+bar1.animate(0.90);
   
-  bar1.animate(0.90);
-  
-  var bar2 = new ProgressBar.Line(document.getElementById('skill-python'), {
+var bar2 = new ProgressBar.Line(document.getElementById('skill-python'), {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
@@ -34,11 +29,10 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'}
-  });
+});
+bar2.animate(0.93);
   
-  bar2.animate(0.93);  // Number from 0.0 to 1.0
-  
-  var bar3 = new ProgressBar.Line(document.getElementById('skill-html'), {
+var bar3 = new ProgressBar.Line(document.getElementById('skill-html'), {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
@@ -46,11 +40,10 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'}
-  });
+});
+bar3.animate(0.98);
   
-  bar3.animate(0.98);  // Number from 0.0 to 1.0
-  
-  var bar4 = new ProgressBar.Line(document.getElementById('skill-php'), {
+var bar4 = new ProgressBar.Line(document.getElementById('skill-php'), {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
@@ -58,11 +51,10 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'}
-  });
+});
+bar4.animate(0.75);
   
-  bar4.animate(0.75);
-  
-  var bar5 = new ProgressBar.Line(document.getElementById('skill-sql'), {
+var bar5 = new ProgressBar.Line(document.getElementById('skill-sql'), {
     strokeWidth: 4,
     easing: 'easeInOut',
     duration: 1400,
@@ -70,13 +62,8 @@ var bar = new ProgressBar.Line(document.getElementById('skill-cpp'), {
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: {width: '100%', height: '100%'}
-  });
-  
-  bar5.animate(0.80);
-
-
-  // progressbar.js@1.0.0 version is used
-// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+});
+bar5.animate(0.80);
 
 var bar6 = new ProgressBar.Circle(document.getElementById('skill-django'), {
     color: '#aaa',
@@ -105,10 +92,10 @@ var bar6 = new ProgressBar.Circle(document.getElementById('skill-django'), {
       }
   
     }
-  });
-  bar6.text.style.fontFamily = '"Roboto", sans-serif';
-  bar6.text.style.fontSize = '2rem';
-  bar6.animate(0.9);  // Number from 0.0 to 1.0
+ });
+bar6.text.style.fontFamily = '"Roboto", sans-serif';
+bar6.text.style.fontSize = '20px';
+bar6.animate(0.9);
   
 var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
     color: '#aaa',
@@ -137,13 +124,13 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       }
   
     }
-  });
-  bar7.text.style.fontFamily = '"Roboto", sans-serif';
-  bar7.text.style.fontSize = '2rem';
-  bar7.animate(0.8);  // Number from 0.0 to 1.0
+});
+bar7.text.style.fontFamily = '"Roboto", sans-serif';
+bar7.text.style.fontSize = '20px';
+bar7.animate(0.8);
   
   
-  var bar8 = new ProgressBar.Circle(document.getElementById('skill-javascript'), {
+var bar8 = new ProgressBar.Circle(document.getElementById('skill-javascript'), {
     color: '#aaa',
     // This has to be the same size as the maximum width to
     // prevent clipping
@@ -170,12 +157,12 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       }
   
     }
-  });
-  bar8.text.style.fontFamily = '"Roboto", sans-serif';
-  bar8.text.style.fontSize = '2rem';
-  bar8.animate(0.7);  // Number from 0.0 to 1.0
+});
+bar8.text.style.fontFamily = '"Roboto", sans-serif';
+bar8.text.style.fontSize = '20px';
+bar8.animate(0.7);
   
-  var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
+var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
     color: '#aaa',
     // This has to be the same size as the maximum width to
     // prevent clipping
@@ -202,12 +189,12 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       }
   
     }
-  });
-  bar9.text.style.fontFamily = '"Roboto", sans-serif';
-  bar9.text.style.fontSize = '2rem';
-  bar9.animate(0.45);  // Number from 0.0 to 1.0
+});
+bar9.text.style.fontFamily = '"Roboto", sans-serif';
+bar9.text.style.fontSize = '20px';
+bar9.animate(0.53);
   
-  var bar10 = new ProgressBar.Circle(document.getElementById('skill-french'), {
+var bar10 = new ProgressBar.Circle(document.getElementById('skill-french'), {
     color: '#aaa',
     // This has to be the same size as the maximum width to
     // prevent clipping
@@ -234,13 +221,12 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       }
   
     }
-  });
-  bar10.text.style.fontFamily = '"Roboto", sans-serif';
-  bar10.text.style.fontSize = '2rem';
+});
+bar10.text.style.fontFamily = '"Roboto", sans-serif';
+bar10.text.style.fontSize = '20px';
+bar10.animate(0.75);
   
-  bar10.animate(0.75);  // Number from 0.0 to 1.0
-  
-  var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
+var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
     color: '#aaa',
     // This has to be the same size as the maximum width to
     // prevent clipping
@@ -267,8 +253,57 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       }
   
     }
-  });
-  bar11.text.style.fontFamily = '"Roboto", sans-serif';
-  bar11.text.style.fontSize = '2rem';
-  
-  bar11.animate(0.55);  // Number from 0.0 to 1.0
+});
+bar11.text.style.fontFamily = '"Roboto", sans-serif';
+bar11.text.style.fontSize = '20px';
+bar11.animate(0.55);
+
+
+$('.skills').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
+    if (visible) {
+        console.log('visible');
+        bar.animate(0.95); 
+        bar1.animate(0.90);
+        bar2.animate(0.93);
+        bar3.animate(0.98);
+        bar4.animate(0.75);
+        bar5.animate(0.80);
+        bar6.animate(0.9);
+        bar7.animate(0.8);
+        bar8.animate(0.7);
+        bar9.animate(0.53);
+        bar10.animate(0.75);
+        bar11.animate(0.55);  
+        $(this).unbind('inview');
+    }
+});
+
+// $('.skill-progress').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
+//     if (visible) {
+//         $.each($('div.progress-bar'),function(){
+//             $(this).css('width', $(this).attr('aria-valuenow')+'%');
+//         });
+//         $(this).unbind('inview');
+//     }
+// });
+
+// $('.more-skill').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
+//     if (visible) {
+//         $('.chart').easyPieChart({
+//             //your configuration goes here
+//             easing: 'easeOut',
+//             delay: 3000,
+//             barColor:'rgba(243, 168, 183, 1)',
+//             trackColor:'rgba(255,255,255,0.2)',
+//             scaleColor: false,
+//             lineWidth: 8,
+//             size: 140,
+//             animate: 2000,
+//             onStep: function(from, to, percent) {
+//                 this.el.children[0].innerHTML = Math.round(percent);
+//             }
+
+//         });
+//         $(this).unbind('inview');
+//     }
+// });

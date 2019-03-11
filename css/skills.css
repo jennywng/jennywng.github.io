@@ -48,28 +48,38 @@
   
   #skill-javascript {
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
   }
   
   #skill-react {
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
   }
   
   #skill-french {
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
   }
   
-  #skill-chinese {
+#skill-chinese {
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     position: relative;
   }
+
+
+#skills h3 {
+  font-family: "Roboto", sans-serif;
+  text-align-last: center;
+  text-transform: uppercase;
+}
+#percent {
+  float:right;
+}
