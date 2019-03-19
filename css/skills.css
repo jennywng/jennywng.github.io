@@ -1,78 +1,18 @@
-#skill-cpp {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  
-  #skill-java {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  
-  #skill-python {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  
-  #skill-html {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  #skill-php {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  #skill-sql {
-    margin: 20px;
-    width: 400px;
-    height: 8px;
-  }
-  
-  #skill-django {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-  #skill-r {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-  #skill-javascript {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-  #skill-react {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-  #skill-french {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-#skill-chinese {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
+.line-skill {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 8px;
+}
+
+.radial-skill {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
 
 
 #skills h3 {
@@ -80,6 +20,14 @@
   text-align-last: center;
   text-transform: uppercase;
 }
+
 #percent {
+  font-family: "Roboto", sans-serif;
   float:right;
 }
+
+.radial-skill-label {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+

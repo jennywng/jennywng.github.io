@@ -174,7 +174,7 @@ var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
     text: {
       autoStyleContainer: false
     },
-    from: { color: '#aaa', width: 1 },
+    from: { color: '#333', width: 4 },
     to: { color: '#333', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
@@ -238,7 +238,7 @@ var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
     text: {
       autoStyleContainer: false
     },
-    from: { color: '#aaa', width: 1 },
+    from: { color: '#333', width: 4 },
     to: { color: '#333', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
