@@ -109,7 +109,7 @@ body {
 }
 .myphoto{
   position: relative;
-  background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+  /* background: url(jennywng.github.io/images/photo-frame.png) bottom center no-repeat; */
   background-size: contain;
 }
 
