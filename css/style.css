@@ -10,6 +10,17 @@ body {
 }
 
 
+.btn {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(243, 168, 183, 1);
+  border: rgba(243, 168, 183, 1);
+}
+
+.btn:hover {
+  background-color: #68b3e2;
+  border: #68b3e2;
+}
+
 .section-title {
   text-align: center;
   text-transform: uppercase;
@@ -66,6 +77,16 @@ body {
   border: 1px solid transparent;
   z-index: 0;
 }
+.social-icons a.facebook i:hover::after{
+  background: #3b5998;
+  border: 1px solid transparent;
+  z-index: 0;
+}
+.social-icons a.insta i:hover::after{
+  background: #e1306c;
+  border: 1px solid transparent;
+  z-index: 0;
+}
 
 
 /* <!--------------------------------------------- Navbar ---------------------------------------------------> */
@@ -74,6 +95,13 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top:0;
+}
+
+.navbar-brand {
+  color: black;
+}
+.navbar-brand:hover {
+  color:rgba(243, 168, 183, 1);
 }
 
 #mainNav li a { 
@@ -107,6 +135,12 @@ body {
   border-radius: 10px;
   height: 20px;
 }
+
+.myprofile p {
+  padding: 10px;
+  margin: 10px;
+}
+
 .myphoto{
   position: relative;
   /* background: url(jennywng.github.io/images/photo-frame.png) bottom center no-repeat; */
@@ -120,11 +154,6 @@ body {
 
 
 /* <!------------------------------------------- Resume section ------------------------------------------------> */
-
-
-
-/* <!------------------------------------------ Skills section -----------------------------------------------> */
-
 
 
 

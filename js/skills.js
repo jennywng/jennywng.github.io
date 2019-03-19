@@ -78,7 +78,7 @@ var bar6 = new ProgressBar.Circle(document.getElementById('skill-django'), {
     },
     svgStyle: {width: '100%', height: '100%'},
     from: { color: '#aaa', width: 1 },
-    to: { color: '#333', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -110,7 +110,7 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       autoStyleContainer: false
     },
     from: { color: '#aaa', width: 1 },
-    to: { color: '#333', width: 4 },
+    to: { color: '#8bccf4', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -143,7 +143,7 @@ var bar8 = new ProgressBar.Circle(document.getElementById('skill-javascript'), {
       autoStyleContainer: false
     },
     from: { color: '#aaa', width: 1 },
-    to: { color: '#333', width: 4 },
+    to: { color: '#8ac1e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -175,7 +175,7 @@ var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
       autoStyleContainer: false
     },
     from: { color: '#333', width: 4 },
-    to: { color: '#333', width: 4 },
+    to: { color: '#4bb9fc', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
