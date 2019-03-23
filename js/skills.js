@@ -95,6 +95,7 @@ var bar6 = new ProgressBar.Circle(document.getElementById('skill-django'), {
  });
 bar6.text.style.fontFamily = '"Roboto", sans-serif';
 bar6.text.style.fontSize = '20px';
+bar6.text.style.color = 'white';
 // bar6.animate(0.9);
   
 var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
@@ -127,6 +128,7 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
 });
 bar7.text.style.fontFamily = '"Roboto", sans-serif';
 bar7.text.style.fontSize = '20px';
+bar7.text.style.color = 'white';
 // bar7.animate(0.8);
   
   
@@ -160,6 +162,7 @@ var bar8 = new ProgressBar.Circle(document.getElementById('skill-javascript'), {
 });
 bar8.text.style.fontFamily = '"Roboto", sans-serif';
 bar8.text.style.fontSize = '20px';
+bar8.text.style.color = 'white';
 // bar8.animate(0.7);
   
 var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
@@ -192,6 +195,7 @@ var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
 });
 bar9.text.style.fontFamily = '"Roboto", sans-serif';
 bar9.text.style.fontSize = '20px';
+bar9.text.style.color = 'white';
 // bar9.animate(0.53);
   
 var bar10 = new ProgressBar.Circle(document.getElementById('skill-french'), {
@@ -224,6 +228,7 @@ var bar10 = new ProgressBar.Circle(document.getElementById('skill-french'), {
 });
 bar10.text.style.fontFamily = '"Roboto", sans-serif';
 bar10.text.style.fontSize = '20px';
+bar10.text.style.color = 'white';
 // bar10.animate(0.75);
   
 var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
@@ -256,6 +261,7 @@ var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
 });
 bar11.text.style.fontFamily = '"Roboto", sans-serif';
 bar11.text.style.fontSize = '20px';
+bar11.text.style.color = 'white';
 // bar11.animate(0.55);
 
 
