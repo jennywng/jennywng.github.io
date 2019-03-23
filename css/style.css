@@ -93,14 +93,21 @@ body {
 
 .myphoto{
   position: relative;
-  /* background: url(jennywng.github.io/images/photo-frame.png) bottom center no-repeat; */
+  background: url(photo-frame.png) bottom center no-repeat;
   background-size: contain;
 }
 
 .myphoto img{
   position: relative;
+  /* background: url(rsz_peach.jpg) bottom center no-repeat; */
   z-index: -1;
 }
+
+.download-button {
+  padding: 10px 24px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 
 
 /* <!------------------------------------------- Resume section ------------------------------------------------> */
