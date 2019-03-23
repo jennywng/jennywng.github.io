@@ -110,7 +110,7 @@ var bar7 = new ProgressBar.Circle(document.getElementById('skill-r'), {
       autoStyleContainer: false
     },
     from: { color: '#aaa', width: 1 },
-    to: { color: '#8bccf4', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -143,7 +143,7 @@ var bar8 = new ProgressBar.Circle(document.getElementById('skill-javascript'), {
       autoStyleContainer: false
     },
     from: { color: '#aaa', width: 1 },
-    to: { color: '#8ac1e2', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -174,8 +174,8 @@ var bar9 = new ProgressBar.Circle(document.getElementById('skill-react'), {
     text: {
       autoStyleContainer: false
     },
-    from: { color: '#333', width: 4 },
-    to: { color: '#4bb9fc', width: 4 },
+    from: { color: '#8e8e8e', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -207,7 +207,7 @@ var bar10 = new ProgressBar.Circle(document.getElementById('skill-french'), {
       autoStyleContainer: false
     },
     from: { color: '#aaa', width: 1 },
-    to: { color: '#333', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -238,8 +238,8 @@ var bar11 = new ProgressBar.Circle(document.getElementById('skill-chinese'), {
     text: {
       autoStyleContainer: false
     },
-    from: { color: '#333', width: 4 },
-    to: { color: '#333', width: 4 },
+    from: { color: '#8e8e8e', width: 4 },
+    to: { color: '#68b3e2', width: 4 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);

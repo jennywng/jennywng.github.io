@@ -47,10 +47,14 @@
 .footer-links.inline li {
     display:inline-block
 }
-.site-footer .social-icons {
+
+/*------------------------------------------------- Social Icons --------------------------------*/
+
+
+.site-footer .footer-social-icons {
     text-align:right
 }
-.site-footer .social-icons a {
+/* .site-footer .footer-social-icons a {
     width:40px;
     height:40px;
     line-height:40px;
@@ -58,7 +62,7 @@
     margin-right:0;
     border-radius:100%;
     background-color:#33353d
-}
+} */
 .copyright-text {
     margin:0
 }
@@ -71,7 +75,7 @@
     .site-footer {
         padding-bottom:0
     }
-    .site-footer .copyright-text,.site-footer .social-icons {
+    .site-footer .copyright-text,.site-footer .footer-social-icons {
         text-align:center
     }
 }
@@ -106,7 +110,7 @@
     -o-transition:all .2s linear;
     transition:all .2s linear
 }
-.footer-social-icons a:active,.social-icons a:focus,.social-icons a:hover {
+.footer-social-icons a:active,.footer-social-icons a:focus,.footer-social-icons a:hover {
     color:#fff;
     background-color:#e6ecf0
 }
@@ -123,7 +127,7 @@
 
 .footer-social-icons a.insta:hover {
     /* background-color:#c13584; */
-    background-color:#e1306c
+    background-color:#e1306c;
 }
 
 .footer-social-icons a.linkedin:hover {
