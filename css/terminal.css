@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Arimo|Assistant|Lato|Montserrat|Noto+Sans|Open+Sans|Open+Sans+Condensed:300|Oxygen|Quicksand|Raleway|Roboto+Condensed|Roboto+Mono');
+
+
 .about-section {
     background-color: rgb(255, 232, 236);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 180px;
+    padding-bottom: 160px;
 
 }
 
 .about-title {
+    font-family: 'Abel', sans-serif;
     text-align: center;
     color: gray;
-    font-family: Tahoma, Geneva, sans-serif;
     font-weight: 500;
     font-size: 22px;
 }
 
 .window {
+
     border-radius: 7px 7px 3px 3px;
     background: #222;
     color: #fff;
@@ -21,7 +25,7 @@
     position: relative;
     margin: 0 auto;
     width: 70%;
-    font-family: "Courier New", Courier, monospace;    
+    font-family: 'Roboto Mono', monospace;  
 }
 
 .window::before {
@@ -37,8 +41,8 @@
     left: 12px;
     right: 0;
     top: -3px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 96px;
+    font-family: 'Roboto Mono', monospace;  
+    font-size: 75px;
     color: #fff;
     line-height: 0;
     letter-spacing: -12px;
@@ -46,15 +50,15 @@
   
 .terminal {
     margin: 20px;
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;  
     font-size: 16px;
-    color: #e7e7e7;
+    color: #d8d7d7;
 }
 
 .terminal .log {
     white-space: nowrap;
     overflow: hidden;
-    color: #cccccc;
+    color: #868585;
     
 }
 
@@ -66,8 +70,16 @@
 }
 
 .terminal .command::before {
-    content: '$ ';
+    content: 'jennywng:/$ ';
     color: #e7e7e7;
+}
+
+.terminal a {
+  color: palevioletred;
+}
+
+.termina a:hover {
+  color: peachpuff;
 }
   
 

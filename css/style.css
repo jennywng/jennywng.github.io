@@ -1,17 +1,38 @@
 /* rgba(243, 168, 183, 1) */
 
-
+@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat|Quicksand|Raleway|Roboto+Condensed|Roboto+Mono');
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Arimo', sans-serif; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Abel', sans-serif; */
 }
 
+#home .text {
+  font-family: 'Raleway', sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+#contact {
+  font-family: 'Montserrat', sans-serif;
+}
+#contact .section-title {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#mainNav {
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Abel', sans-serif; */
+}
 
 .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: rgba(243, 168, 183, 1);
   border: rgba(243, 168, 183, 1);
   color: white;

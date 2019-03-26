@@ -1,0 +1,35 @@
+#greeting {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+}
+
+.btn {
+    font-family: 'Lato';
+    text-transform: capitalize;
+    text-align: center;
+    color:white;
+    position: relative;
+    top: 50%;
+    left: 40%
+
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 226, 232);
+    font-family: 'Antic';
+}
