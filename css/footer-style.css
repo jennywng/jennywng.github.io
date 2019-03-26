@@ -1,8 +1,11 @@
 .site-footer {
     font-family: "Roboto", sans-serif;
-    background-color:rgb(105, 105, 105);
-    padding:45px 0 20px;
-    font-size:15px;
+    background-color:rgb(180, 180, 180);
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
     line-height:24px;
     color:#ffffff;
 }

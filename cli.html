@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  <!-- required to handle IE -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta name="author" content="Jenny Wang">
+        <meta name="description" content="Jenny's website">
+        <meta name="keywords" content="Jenny Wang,Jenny,Wang,UVA,resume,software,software developer, software engineer">
+            
+        <title>Jenny Wang</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        
+        <link rel="stylesheet" href="css/cli.css">
+        
+        <title>Jenny Wang</title>
+        <link rel="icon" type="image/png" href="favicon.ico">
+    </head>
+
+
+    <body>
+
+
+
+            <main>
+                    <section id="home">
+                    <h2>CLI - Command Line Interface Simulation</h2>
+                    <p>A fun experiment for displaying simple info in a geeky manner.</p>
+                    <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+                    </section>
+                    
+                    <section id="about">
+                    <h2><span>&raquo;About</span></h2>
+                    <p>This is an experiment built by <a href="http://syndicatefx.com" target="_blank">Paulo Nunes</a> for showcasing a user profile or cv in an unusual but original way by simulating a command line interface. It's nothing more than the usual hidden elements triggered by some jQuery to show/hide each section of content, based on input values.</p>
+                    <p>It makes use of <a href="https://github.com/gr8pathik/jquery-texttyper" target="_blank">jQuery-texttyper</a> for the fancy letter animations.</p>
+                    </section>
+                    
+                    <section id="usage">
+                    <h2><span>&raquo;Usage</span></h2>
+                    <p>Using it is pretty straight forward. Create several(as much as you need) divs or &laquo;section&raquo; elements each with it's unique id to hold your content. Make sure to have an error section (id="error") with some information to warn the user when he/she mistypes a command or if there is no section with that name, think of it as a 404 page.</p>
+                    <p>A section with id="help" is also required so you can list all the available sections and let your users know what words to write to access that particular content.</p>
+                    <p>The input field must be a standalone element and must not be placed inside any of the content divs or sections, and make sure you give it a classname "command", if you want to name it anything else you need to edit the app.js and change all instances of .command in the script to match your chosen classname.</p>
+                    <p>In short, just view the source code of this demo, copy/modify it to your liking making sure you include the error and help sections.</p>
+                    </section>
+                    
+                    <section id="download">
+                    <h2><span>&raquo;Download</span></h2>
+                    <p>Download/fork the source code: <a href="https://github.com/syndicatefx/cli">Github</a></br>
+                    Depends on jQuery</br>
+                    License: MIT</p>
+                    </section>
+                    
+                    <section id="error">
+                    <p>Command not found!<p> 
+                    <p><span>Type 'help' + <kbd>Enter</kbd> -- for available commands.</span></p>
+                    </section>
+                    
+                    <section id="help">
+                    <h2><span>&raquo;Help?</span></h2>
+                    <p><span>Type [command] + <kbd>Enter</kbd></span></p>
+                    <ul>
+                        <li>'home' -- Thats obvious!</li>
+                        <li>'about' -- What's this for</li>
+                      <li>'usage' -- How to</li>
+                      <li>'download' -- Download + license</li>
+                        <li>'help' -- displays this list</li>
+                    </ul>
+                    </section>
+                    
+                    <span class="command">syndicatefx:/$<input type="text"></span>
+                    </main>
+
+
+        <!-- ---------------scripts---------------- -->
+        <!-- jquery and plugins-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script src="js/textTyper.js"></script>
+        <script src="js/typer.js"></script>
+
+        <!-- my scripts -->
+        <script src="js/cli.js"></script>
+
+    </body>
+
+
+</html>

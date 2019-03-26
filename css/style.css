@@ -37,6 +37,7 @@ body {
 /* <!--------------------------------------------- Navbar ---------------------------------------------------> */
 
 #mainNav {
+  background-color: rgb(105, 105, 105);
   position: -webkit-sticky;
   position: sticky;
   top:0;
@@ -50,7 +51,7 @@ body {
 }
 
 #mainNav li a { 
-  color: #000000; 
+  color: white; 
 }
 #mainNav li a.active { 
   color: #000000; 
