@@ -4,6 +4,15 @@ html {
   overflow-y: scroll; 
 }
 
+h6 {
+  color: darkcyan;
+}
+
+.work-date {
+  color: darkseagreen;
+  size: 10px;
+}
+
 body {
   font: .875em/1.6 'Inconsolata', monospace;
   color: #181818;
