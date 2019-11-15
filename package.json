@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "typer.js": "^1.2.1"
   }
 }
